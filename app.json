@@ -1,0 +1,15 @@
+{
+  "pages":[ 
+    "pages/main/main",  
+    "pages/index/index",  
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#94c8d8",
+    "navigationBarTitleText": "养老",
+    "navigationBarTextStyle":""
+  }
+
+
+}
