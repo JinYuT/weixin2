@@ -1,6 +1,7 @@
 /* pages/main/main.wxss */
 .top{
   position: relative;
+  height: 380rpx;
 }
 image{
   width: 100%;
@@ -24,6 +25,7 @@ image{
 }
 
 .nav{
+  margin: 0;
   box-sizing: border-box;
   padding: 170rpx 30rpx 0 30rpx;
   display:flex;

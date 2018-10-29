@@ -16,6 +16,11 @@ Page({
     interval: 3000,
     duration: 1000
   },
+  an:function(){
+    wx.navigateTo({
+      url: '../main/main',
+    })
+  },
 
 
   /**

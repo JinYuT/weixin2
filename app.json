@@ -1,8 +1,8 @@
 {
   "pages":[ 
-    "pages/main/main",  
-    "pages/index/index", 
-    "pages/banner/banner",  
+    "pages/index/index",  
+    "pages/banner/banner",
+    "pages/main/main",          
     "pages/logs/logs"
   ],
   "window":{

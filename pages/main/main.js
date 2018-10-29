@@ -1,6 +1,17 @@
 // pages/main/main.js
 Page({
 
+  old:function(){
+    wx.navigateTo({
+      url: '../banner/banner',
+    })
+  },
+  see:function(){
+    wx.navigateTo({
+      url: '../index/index',
+    })
+  },
+
   /**
    * 页面的初始数据
    */

@@ -5,7 +5,7 @@
   </image>
 
   <view class='banner'>
-    <view class='banner_1'>养老</view>
+    <view class='banner_1' bindtap='old'>养老</view>
     <view class='banner_2'>医疗</view>
     <view class='banner_3'>购物</view>
   </view>
@@ -13,6 +13,6 @@
 </view>
 
 <view class='nav'>
-  <view class='nav_1'>医疗推荐</view>
+  <view class='nav_1' bindtap='see'>医疗推荐</view>
   <view class='nav_2'>活动详情</view>
 </view>
