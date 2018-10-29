@@ -1,12 +1,22 @@
-// pages/main/main.js
+// pages/index/main.js
 Page({
-
   /**
    * 页面的初始数据
    */
   data: {
-  
+    imgUrls: [
+      '../imgs/1.jpg',
+      '../imgs/2.jpg',
+      '../imgs/3.jpg',
+      '../imgs/4.jpg',
+    ],
+    circular:true,
+    indicatorDots: true,
+    autoplay: true,
+    interval: 3000,
+    duration: 1000
   },
+
 
   /**
    * 生命周期函数--监听页面加载
@@ -54,7 +64,7 @@ Page({
    * 页面上拉触底事件的处理函数
    */
   onReachBottom: function () {
-  
+    
   },
 
   /**
