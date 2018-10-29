@@ -1,8 +1,14 @@
 {
   "pages":[ 
+<<<<<<< HEAD
     "pages/index/index",  
     "pages/banner/banner",
     "pages/main/main",          
+=======
+    
+    "pages/index/index", 
+    "pages/main/main", 
+>>>>>>> 6f70fd3bcccc105ab24e8efa6e3560726578b673
     "pages/logs/logs"
   ],
   "window":{
