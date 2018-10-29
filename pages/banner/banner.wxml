@@ -1,4 +1,8 @@
-<swiper indicator-dots="{{indicatorDots}}"
+<view class='top'>
+  <input placeholder='搜索'>
+    <image src=''></image>
+  </input>
+  <swiper indicator-dots="{{indicatorDots}}"
   autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
   <block wx:for="{{imgUrls}}">
     <swiper-item>
@@ -6,3 +10,15 @@
     </swiper-item>
   </block>
 </swiper>
+<view class='banner'>
+    <view class='banner_1'>养老</view>
+    <view class='banner_2' bindtap='an'>医疗</view>
+    <view class='banner_3'>购物</view>
+</view>
+</view>
+
+<view class='nav'>
+  123
+</view>
+
+
