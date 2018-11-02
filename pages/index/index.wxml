@@ -1,19 +1,11 @@
-<!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
-  <view class="usermotto_my">
-    <text class="user-motto">{{lover}}</text>
-  </view>
-  <button bindtap='url' class='button'>
-    {{button}}
-  </button>
+<txv-video  vid="{{vid}}" autoplay="{{boolean}}" playerid="txv1">
+  <cover-view class='txv-video-slot'>JY</cover-view>
+</txv-video>
+
+<view class='explain'>
+  <map enable-zoom="true" >
+    <cover-view></cover-view>
+  </map>
+  <!-- YILBZ-MOMR2-KXMUS-CR5J4-NJRLH-FZFIA   地图key -->
 </view>
+

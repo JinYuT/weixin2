@@ -14,7 +14,14 @@ Page({
     indicatorDots: true,
     autoplay: true,
     interval: 3000,
-    duration: 1000
+    duration: 1000,
+
+    index:[
+      {id:1,name:"thy"},
+      {id:2,name:"wmy"},
+      { id: 3, name: "wer" },
+      { id: 3, name: "wer" }
+    ]
   },
   an:function(){
     wx.navigateTo({

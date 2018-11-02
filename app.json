@@ -1,16 +1,53 @@
 {
   "pages":[ 
-    "pages/index/index",  
     "pages/banner/banner",
+    "pages/index/index",
+   
     "pages/main/main",          
     "pages/logs/logs"
+    
   ],
-  "window":{
+  "window":{   
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#94c8d8",
+    "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "养老",
     "navigationBarTextStyle":""
+    
+  },
+
+
+    "tabBar": {
+
+      "color": "#fff",
+      "selectedColor": "#39b5de",
+      "backgroundColor": "#94c8d8",
+      "borderStyle": "black",
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "text": "我的"
+        },
+
+        {
+          "pagePath": "pages/banner/banner",
+          "text": "印记"
+        },
+       
+        {
+          "pagePath": "pages/main/main",
+          "text": "养老"
+        }
+      ]
+    },
+
+
+  "plugins": {
+    "tencentVideo": {
+      "version": "1.2.2",
+      "provider": "wxa75efa648b60994b"
+    }
   }
+ 
 
 
 }
